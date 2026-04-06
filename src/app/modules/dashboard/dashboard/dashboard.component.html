@@ -1,0 +1,19 @@
+<h2>Dashboard Overview</h2>
+
+<div class="cards">
+  <app-summary-card title="Balance" [amount]="balance()"></app-summary-card>
+  <app-summary-card title="Income" [amount]="income()"></app-summary-card>
+  <app-summary-card title="Expenses" [amount]="expenses()"></app-summary-card>
+</div>
+
+<!-- Time-based Visualization Placeholder -->
+<div class="chart-section">
+  <h3>Balance Trend</h3>
+  <div class="chart-placeholder">Line Chart Here (Phase 2)</div>
+</div>
+
+<!-- Categorical Visualization Placeholder -->
+<div class="chart-section">
+  <h3>Spending Breakdown</h3>
+  <div class="chart-placeholder">Pie Chart Here (Phase 2)</div>
+</div>
